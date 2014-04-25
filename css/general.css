@@ -16,7 +16,7 @@ html {
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-    font-size: 130%;
+    font-size: 100%;
     font-family: "Goudy Old Style", "Garamond", serif;
 } 
 
@@ -26,6 +26,11 @@ header {
     background-size: 70rem;        
     background-position:center center;
     overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -65,10 +70,9 @@ header {
 }
 
 h1{
-    font-size: 200%;
+    font-size: 3rem;
     font-family: "MedievalSharp", "Garamond", serif;
     text-align: center;
-    
     padding: .25rem 2rem 0rem 10%;   
 }
 
@@ -79,7 +83,12 @@ h2 {
 }
 
 article {
-    font-size: 1.5rem;
+    padding: 1.5rem 5%;
+}
+
+article p {
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .billboard {
