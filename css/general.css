@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    font-size: 130%;
+    font-family: "Goudy Old Style", "Garamond", serif;
+} 
+
+header {
+    background-image:url(../images/brick2.jpg);
+    background-repeat:repeat-x;
+    background-size: 70rem;        
+    background-position:center center;
+    overflow: hidden;
+}
+
+.logo {
+    height: auto;
+    width:auto;
+    margin: 0rem .5rem auto 0rem;
+    opacity: 1
+}
+
+.nav-top {
+    clear: both;
+}
+
+.nav-top ul {
+    margin:0rem;
+    padding: 0rem;
+    background-color: #cc3333;
+    text-align: center;
+}
+
+.nav-top li {
+    display: inline;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.nav-top a, 
+.nav-top a:link,
+.nav-top a:visited {
+    display: inline-block;
+    margin: 0rem;
+    padding: 1.5rem 10%;
+    color: white;
+    font-family: "MedievalSharp", "Garamond", serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 200%;
+    font-family: "MedievalSharp", "Garamond", serif;
+    text-align: center;
+    
+    padding: .25rem 2rem 0rem 10%;   
+}
+
+h2 {
+    font-size: 180%;
+    font-family: "MedievalSharp", "Garamond", serif;
+    text-align: center;
+}
+
+article {
+    font-size: 1.5rem;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image:url(../images/skulls.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;        
+    background-position: center center;
+    border: none;
+    margin: .5rem 0% 1rem;
+    font-weight:normal;
+    font-size: 1.4rem;
+    text-align: left;
+    background-color: white;
+    padding: 2rem;    
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.6%;
+	padding-top: 25px;
+	height: 0rem;
+}
+
+.video iframe {
+    border: 0rem; 
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	width: 100%;
+	height: 100%;
+}
+    
+figcaption {
+    font-size: .5rem;
+    float: right;
+}
+
+.dropcap:first-letter {
+    font-family: "MedivalSharp", Georgia, serif;
+    font-size: 4.8rem;
+    font-weight: bold;
+    float: left;
+    margin: -1rem .5rem -1rem .5rem;
+    color: #cc3333;  
+}
+
+.bucket3 {
+    overflow: hidden;
+    margin: 0rem 0rem 1.5rem;
+    padding: 0rem;
+    background-color: #cccccc;
+}
+
+.bucket3 img {
+    float: left;
+    width: 45%; 
+    margin: 0rem 5% 0rem 0rem;
+    padding: 0rem;
+}
+
+.bucket3 figcaption {
+    float: right;
+    width: 50%;
+    margin: 0rem;
+    padding: 0rem;
+    background-color: #cccccc; 
+}
+
+details {
+    margin: 0rem 0rem 1.5rem;
+    font-size: 115%
+}
+
+.nav-groups {
+    clear: both;
+}
+
+.nav-groups ul {
+    margin:0rem;
+    padding: 0rem;
+    background-color: #cccddd;
+    text-align: center;
+}
+
+.nav-groups li {
+    display: inline;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.nav-groups a, 
+.nav-groups a:link,
+.nav-groups a:visited {
+    display: block;
+    margin: 0rem;
+    padding: 3rem 10%;
+    color: #cc3333;
+    font-size:180%;
+    font-family: "MedievalSharp", "Garamond", serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    background-image:url(../images/brick2-reverse.jpg);
+    background-repeat:repeat-x;
+    background-size: 70rem;        
+    background-position:center center;
+    overflow: hidden;
+}
+
+.logo-2 {
+    height: auto;
+    width:auto;
+    margin: 10rem .5rem auto ;
+    opacity: 1
+}
+
+.nav-bottom {
+    clear: both;
+}
+
+.nav-bottom ul {
+    margin:0rem;
+    padding: 0rem;
+    background-color: transparent;
+    text-align: center;
+}
+
+.nav-bottom li {
+    display: inline-block;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: black;
+    text-decoration: underline;
+    font-size: .90rem;
+    line-height: 1.5rem;
+}
+
+.media {
+    height: 6rem;
+    width:auto;
+    margin: 0rem auto 0rem;
+    opacity: 1
+}
